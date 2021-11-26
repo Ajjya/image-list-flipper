@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image list flipper</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="../dist/image-list-flipper.js" type="text/javascript"></script>
+</head>
+<body>
+  <div class="images_wrap">
+    <ul>
+      <li style="background-image: url(assets/images/image1.jpg)" image-flipper-back="assets/images/image3.jpg"></li>
+      <li style="background-image: url(assets/images/image2.jpg)" image-flipper-back="assets/images/image5.jpg"></li>
+      <li style="background-image: url(assets/images/image3.jpg)" image-flipper-back="assets/images/image1.jpg"></li>
+      <li style="background-image: url(assets/images/image4.jpg)" image-flipper-back="assets/images/image6.jpg"></li>
+      <li style="background-image: url(assets/images/image5.jpg)" image-flipper-back="assets/images/image2.jpg"></li>
+      <li style="background-image: url(assets/images/image6.jpg)" image-flipper-back="assets/images/image4.jpg"></li>
+    </ul>
+  </div>
+  <script type="text/javascript">
+    new imageListFlipper.ImageListFlipper();
+  </script>
+</body>
+</html>

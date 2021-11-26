@@ -1,0 +1,27 @@
+{
+  "name": "image-list-flipper",
+  "version": "1.0.0",
+  "main": "dist/image-list-flipper.js",
+  "module": "dist/image-list-flipper.js",
+  "author": "vladislava.p <vladyslava.prykhodko@gmail.com>",
+  "license": "MIT",
+  "watch": true,
+  "watchOptions": {
+    "aggregateTimeout": 200,
+    "poll": 1000,
+    "ignored": "/node_modules/"
+  },
+  "scripts": {
+    "dev": "webpack --mode development",
+    "start": "webpack --watch --progress"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "sass-loader": "^12.3.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.64.3",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
+  }
+}
