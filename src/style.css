@@ -4,6 +4,12 @@
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
   width: 100%;
   height: 100%;
+  display: flex;
+}
+
+.flip-box img{
+  width: 100%;
+  height: 100%;
 }
 
 /* This container is needed to position the front and back side */
@@ -60,4 +66,16 @@
   background-color: dodgerblue;
   color: white;
   transform: rotateY(180deg);
+}
+
+.image-flip-copy-parent{
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  z-index: -1;
+}
+
+.image-flip-gran{
+  position: relative;
 }

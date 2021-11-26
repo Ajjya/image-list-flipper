@@ -13,7 +13,7 @@
   },
   "scripts": {
     "dev": "webpack --mode development",
-    "start": "webpack --watch --progress"
+    "start": "webpack --watch --progress --mode development"
   },
   "dependencies": {},
   "devDependencies": {
