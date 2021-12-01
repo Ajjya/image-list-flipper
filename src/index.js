@@ -80,7 +80,6 @@ ImageListFlipper.prototype.changeImageWidth = (self) => {
     if(item.type == 'img'){
       const width = item.copyElement.clientWidth;
       const height = item.copyElement.clientHeight;
-      console.log(item.element);
       item.element.style.width = width + 'px';
       item.element.style.height = height + 'px';
     }
